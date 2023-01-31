@@ -6,7 +6,7 @@
 /*   By: dsas <dsas@student.42wolfsburg.de>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 13:46:25 by dsas              #+#    #+#             */
-/*   Updated: 2023/01/31 18:10:16 by dsas             ###   ########.fr       */
+/*   Updated: 2023/01/31 18:32:28 by dsas             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,21 +18,21 @@
 # include <stdlib.h>
 # include <limits.h>
 
-int	ft_printf(const char *str, ...);
+int		ft_printf(const char *str, ...);
 
-int	ft_printstr(char *str);
+int		ft_printstr(char *str);
 
-int	ft_printstr(char *str);
+int		ft_printstr(char *str);
 
-int	ft_printnbr(int nb);
+int		ft_printnbr(int nb);
 
-int	ft_print_format(va_list args, char format);
+int		ft_print_format(va_list args, char format);
 
-int	ft_print_ptr(unsigned long long ptr);
+int		ft_print_ptr(unsigned long long ptr);
 
-int	ft_print_hex(unsigned int nb, char format);
+int		ft_print_hex(unsigned int nb, char format);
 
-int	ft_print_unsigned(unsigned int nb);
+int		ft_print_unsigned(unsigned int nb);
 
 char	*get_next_line(int fd);
 char	*ft_strjoin(char const *s1, char const *s2);
