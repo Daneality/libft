@@ -6,7 +6,7 @@
 #    By: dsas <dsas@student.42wolfsburg.de>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/28 16:51:57 by dsas              #+#    #+#              #
-#    Updated: 2023/01/31 18:12:54 by dsas             ###   ########.fr        #
+#    Updated: 2023/01/31 19:25:05 by dsas             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ ft_strdup.c ft_memset.c ft_memcpy.c ft_memmove.c ft_memchr.c ft_memcmp.c \
 ft_atoi.c ft_split.c ft_itoa.c ft_substr.c ft_strtrim.c ft_striteri.c ft_strmapi.c \
 ft_putchar_fd.c ft_putstr_fd.c ft_putnbr_fd.c ft_putendl_fd.c get_next_line_bonus.c \
 get_next_line_utils_bonus.c strcmp.c ft_print_hex.c ft_print_ptr.c \
-ft_print_unsigned.c ft_printf.c
+ft_print_unsigned.c ft_printf.c ft_free_strings.c
 
 OBJS = ${SRCS:.c=.o}
 

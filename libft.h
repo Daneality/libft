@@ -6,7 +6,7 @@
 /*   By: dsas <dsas@student.42wolfsburg.de>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 13:46:25 by dsas              #+#    #+#             */
-/*   Updated: 2023/01/31 18:32:28 by dsas             ###   ########.fr       */
+/*   Updated: 2023/01/31 19:24:45 by dsas             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,6 +100,8 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_atoi(const char *nptr);
 
 char	**ft_split(char const *s, char c);
+
+void	ft_free_strings(char **str);
 
 char	*ft_strjoin(char const *s1, char const *s2);
 
